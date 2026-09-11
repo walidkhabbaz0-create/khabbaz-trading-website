@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Refrigerators | Khabbaz Trading</title>
+
+    <link rel="stylesheet" href="style.css">
+     <style>
+    .category-products .products-grid {
+        display: grid !important;
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 22px !important;
+        max-width: 1200px !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+        padding: 30px 20px !important;
+    }
+
+    .category-products .product-card {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: none !important;
+        margin: 0 !important;
+    }
+
+    .category-products .product-image {
+        width: 100% !important;
+        height: 350px !important;
+        overflow: hidden !important;
+        border-radius: 15px !important;
+    }
+
+    .category-products .product-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+        display: block !important;
+    }
+
+    @media (max-width: 768px) {
+        .category-products .products-grid {
+            grid-template-columns: 1fr !important;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <nav class="navbar">
+
+            <a href="index.html" class="brand">
+                <span class="brand-copy">
+                    <strong>KHABBAZ</strong>
+                    <small>TRADING</small>
+                </span>
+            </a>
+
+            <a href="index.html" class="nav-button">
+                HOME →
+            </a>
+
+        </nav>
+    </header>
+
+
+    <!-- CATEGORY PAGE -->
+    <main class="category-page">
+
+        <!-- HERO -->
+        <section class="category-hero">
+
+            <div class="category-hero-content">
+                <h1>Refrigerators</h1>
+
+                <p>
+                    Discover our available refrigerator models
+                    </p>
+                </div>
+            </section>
+
+             <!--PRODUCTS-->
+
+             <section class="category-products">
+                <div class="products-grid">
+
+                    <!--samsung-->
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="refrigator-samsung.jpg" alt="refrigator samsung">  
+                </div>
+                    </article>
+             <!-- LG -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="refrigator-lg.jpg" alt="SAMSUNG refrigerator">
+                    </div>
+                </article>
+                <!-- Toshiba -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="refrigerator-toshiba.jpg" alt="Toshiba Refrigerator">
+                    </div>
+                </article>
+                <!-- Hitachi -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="refrigator-1.jpg" alt="Hitachi Refrigerator">
+                    </div>
+                </article>
+                <!-- General Refrigerator -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="refrigator-hisense.jpg" alt="Refrigerator">
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+            

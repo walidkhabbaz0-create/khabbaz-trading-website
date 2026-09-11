@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fans Khabbaz Trading</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .category-products .products-grid {
+            display: grid !important;
+            grid-template-columns: repeat(3, 1fr) !important;
+            gap: 22px !important;
+            width: 100% !important;
+            max-width: 1200px !important;
+            margin: 0 auto !important;
+            padding: 30px 20px 50px !important;
+        }
+
+        .category-products .product-card {
+            width: 100% !important;
+            min-width: 0 !important;
+            max-width: none !important;
+            margin: 0 !important;
+        }
+
+        .category-products .product-image {
+            width: 100% !important;
+            height: 350px !important;
+            overflow: hidden !important;
+            border-radius: 14px !important;
+        }
+        .category-products.product-image imag{
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: contain !important;
+            display: block !important;
+        }
+        @media(max-width:768px){
+            .category-products.products-grid{
+                grid-template-columns: 1fr !important;
+            }
+        }
+        </style>
+        </head>
+        <body>
+            <head class="site-header">
+                <NAV class="navbar">
+                    <a href="index.html" class="nav-button">
+                         → HOME
+                    </a>
+                </NAV>
+            <main class="category-page">
+                <!--HERO-->
+                <section class="category-hero">
+                    <div class="category-hero-content">
+                        <h1>Fans</h1>
+                        <p>Discover our available fan models</p>
+                    </div>
+                </section>
+                <!--PRODUCTS-->
+                <section class="category-products">
+                    <div class="products-grid">
+                        <!--FAN1-->
+                        <article class="product-card">
+                            <div class="product-image">
+                                <img src="fan-collection.jpg" alt="fan">
+                            </div>
+                        </article>
+                        <!--FAN2-->
+                        <article class="product-card">
+                            <div class="product-image">
+                                <img src="fan-crown.jpg" alt="fan">
+                    </div>
+                    </article>
+                    <!--FAN3-->
+                     <article class="product-card">
+                            <div class="product-image">
+                                <img src="fan-gree.jpg" alt="fan">
+                                </div>
+                        </article>
+                        <!--fan4-->
+                         <article class="product-card">
+                            <div class="product-image">
+                                <img src="fan-jtc-black.jpg" alt="fan">
+                            </div>
+                        </article>
+                        <!--FAN5-->
+                         <article class="product-card">
+                            <div class="product-image">
+                                <img src="fan-resharge.jpg" alt="fan">
+                            </div>
+                        </article>
+                       
+                </section>
+            </main>
+            <script src="script.js"></script>
+        </body>
+    </html>
